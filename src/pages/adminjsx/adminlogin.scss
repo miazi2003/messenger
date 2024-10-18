@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.setup {
+  height: 100vh;
+  width: 100%;
+  background-image: url(pexels-felixmittermeier-956999.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  h3 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 29%;
+    color: white;
+   background-image: url(pexels-damir-mijailovic-1921088-3651579.jpg);
+   background-size: cover;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+  
+  }
+ 
+}
+.log {
+  position: absolute;
+  height: auto;
+  width: 350px;
+  border: none;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-bottom: 20px;
+  .hd {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    margin-top: 10px;
+  
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    margin-top: 20px;
+    
+    input {
+        height: 25px;
+        width: 80%;
+margin-left: 7%;
+margin-top: 15px;
+border: none;
+border-bottom: 1px solid rgb(194, 194, 194);
+outline: none;
+background-color: transparent;
+color: white;
+padding: 10px;
+    }
+    input:hover{
+        border: 1px solid white;
+        border-radius: 10px;
+        
+        
+    }
+  }
+  .b{
+    height: 30px;
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 20px;
+    background-color:grey;
+    color: white;
+    border: none;
+    border-radius:10px ;
+  }
+  .b2{
+    height: 30px;
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 13px;
+    background-color:grey;
+    color: white;
+    border: none;
+    border-radius:10px ;
+      }
+      button:hover{
+        border: 1px solid #868282;
+        background-color:rgb(204, 188, 165);
+        color: rgb(27, 27, 27);
+      }
+  
+.forgot{
+    font-size: 14px;
+color: white;
+margin-top: 10px;
+margin-left: 75px;
+a{
+    text-decoration: none;
+    color:black ;
+}
+}
+}

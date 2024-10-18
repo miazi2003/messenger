@@ -1,0 +1,28 @@
+.nav{
+    height: 50px;
+    background-color: rgb(123, 71, 207);
+    display: flex;
+    justify-content: space-between;
+ 
+  .menu{
+    height: 100%;
+    width: 70px;
+   
+    margin-left: 10px;
+
+    img{
+       margin-top: 10px;
+        height: 60%;
+        width: 50%;
+        mix-blend-mode: multiply;
+      
+    }
+  }
+  .Login{
+    height: 100%;
+    width: 40px;
+    margin-right: 30px;
+    padding: 10px;
+    color: white;
+  }
+}

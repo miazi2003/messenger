@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.sidenav{
+    height: auto;
+    width: 200px;
+    background-color: rgb(70, 70, 70);
+   .logo{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    z-index: 10;
+
+   }
+    .management{
+        height: 40px;
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 10px;
+        text-align: center;
+        background-color: rgb(115, 92, 207);
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-size: smaller;
+        padding-left: 20px;
+    }
+    .categories{
+        height: 40px;
+        width: 95%;
+        margin-top: 10px;
+        margin-left: 2%;
+       
+        
+        background-color: white;
+        padding: 8px;
+        border-radius: 8px;
+        color: rgb(54, 46, 100);
+        padding-left: 35px;
+        
+    }
+  .buttons{
+   
+   
+    button{
+        height: 40px;
+        width: 100%;
+        margin-top: 10px;
+      background-color: transparent;
+      border: none;
+      text-align: left;
+      padding-left: 40px;
+      color: white;
+
+       
+    }
+  }
+}

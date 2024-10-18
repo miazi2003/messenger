@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.mainbox{
+    height: 100vh;
+    width: 100%;
+    background-image: url(—Pngtree—nature-forest-sun-ecology_2394782.jpg);
+    background-repeat: none;
+    background-size: cover;
+    .blurs{
+      height: 100vh;
+      width: 60%;
+      backdrop-filter: blur(2px);
+      padding: 40px;
+      margin-left: 40%;
+      
+      .logIn {
+        height: 550px;
+        width: 100%;
+  
+        .hLine {
+          padding: 20px;
+          h1 {
+            font-size: 40px;
+            font-weight: bold;
+            color: darkgreen;
+            margin-left:  160px;
+          }
+          p {
+            color: green;
+            margin-left:  160px;
+            margin-top: 10px;
+            text-decoration: none;
+          }
+          a {
+            color: black;
+            margin-left: 5px;
+  
+            text-decoration: none;
+          }
+        }
+        .inputs{
+
+      
+          margin-left: 180px;
+          .inputb{
+            display: flex;
+            input{
+                height: 50px;
+                width:170px ;
+            }
+            .input2{
+                margin-left: 20px;
+
+            }
+
+          }
+          input {
+            height: 50px;
+            width: 360px;
+            margin-top: 20px;
+            border: 3px solid rgb(61, 77, 61);
+            border-radius: 30px;
+            background-color: transparent;
+            outline: none;
+            padding-left: 20px;
+          }
+          input:hover {
+            border: 3px solid green;
+            
+          }
+        }
+        .allbuttons {
+          display: flex;
+          margin-left: 180px;
+          margin-top: 40px;
+          button {
+            height: 50px;
+            width: 160px;
+            border: none;
+  
+            border-radius: 30px;
+  
+            background-color: rgb(106, 138, 106);
+            color: white;
+          }
+          .bt3 {
+            margin-left: 40px;
+          }
+          button:hover {
+            background-color: rgb(119, 190, 119);
+            color: black;
+            cursor: pointer;
+          }
+        }
+        
+      }
+    }
+  }

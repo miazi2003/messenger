@@ -1,0 +1,28 @@
+@font-face {
+  font-family: myfont;
+  src: url(td.ttf);
+}
+
+.digitalclock {
+  height: 250px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 15%;
+  border: 20px solid grey;
+  border-radius: 10px;
+  h1 {
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-top: 50px;
+    font-size: 100px;
+
+    margin-left: 60px;
+    font-family: myfont;
+  }
+}

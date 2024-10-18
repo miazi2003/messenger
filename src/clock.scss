@@ -1,0 +1,122 @@
+
+.clock{
+    height: 600px;
+    width: 600px;
+    background: white;
+    border-radius: 50%;
+    border: 14px solid black;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 2vw 4vw -1vw rgba(0,0,0.8) ;
+    .dot{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+background: rgb(211, 211, 211);
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+z-index: 10;
+box-shadow: 0px 2px 4px -1px black;
+    }
+    .hour{
+        position: absolute;
+        font-weight: 700;
+        font-size: 50px;
+        background: none;
+        
+    }
+    .twelve{
+        top: 4px;
+        right: 45%;
+    }
+    .one{
+        top: 8%;
+        right: 24%;
+    }
+    .two{
+        top: 21%;
+        right: 8%;
+    }
+    .three{
+        top: 42%;
+        right: 2%;
+    }
+    .four{
+        top: 63%;
+        right: 50px;
+    }
+    .five{
+        top: 80%;
+        right: 136px;
+    }
+    .six{
+       bottom: 4px;
+        left: 47%;
+    }
+    .seven{
+        top: 79%;
+        left: 129px;
+    }
+    .eight{
+        top: 64%;
+        left: 49px;
+    }
+    .nine{
+        top: 44%;
+        left: 15px;
+    }
+    .ten{
+        top: 24%;
+        left:7%;
+    }
+    .eleven{
+        top: 8%;
+        left: 22%;
+       
+    }
+     .hourpin {
+        position: absolute;
+        z-index: 5;
+        width: 16px;
+        height: 151px;
+        background-color: black;
+        top: 130px;
+        left: 50%;
+        transform-origin: 47% 156px;
+        margin-left: -5px;
+        border-top-left-radius: 48%;
+        border-top-right-radius: 48%;
+    }
+    .minutepin {
+        position: absolute;
+        z-index: 6;
+        width: 12px;
+        height: 151px;
+        background-color: rgb(83, 81, 81);
+        top: 130px;
+        left: 50%;
+        transform-origin: 47% 156px;
+        margin-left: -5px;
+        border-top-left-radius: 48%;
+        border-top-right-radius: 48%;
+    }
+    .secondpin {
+        position: absolute;
+        z-index: 7;
+        width: 8px;
+        height: 151px;
+        background-color: red;
+        top: 130px;
+        left: 50%;
+        transform-origin: 47% 156px;
+        margin-left: -5px;
+        border-top-left-radius: 48%;
+        border-top-right-radius: 48%;
+    }
+    }
+    
