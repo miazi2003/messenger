@@ -1,0 +1,191 @@
+@media screen and (max-width: 480px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    *{
+        font-family: "Roboto", sans-serif;
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    .nev {
+        height: 60px;
+        width: 100%;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        position: fixed;
+        z-index: 15;
+    padding-left: 10px;
+padding-right:10px;
+.g{
+    display: flex;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+
+}
+.icon{
+    color: rgb(231, 181, 88);
+    font-size: 22px;
+}
+.element{
+    display: flex;
+   height: 100%;
+   width: 110px;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.call{
+  
+        color: rgb(231, 181, 88);
+        font-size: 22px;
+    
+}
+
+.video{
+    color: rgb(231, 181, 88);
+    font-size: 22px;
+}
+.about{
+    color: rgb(231, 181, 88);
+    font-size: 22px;
+}
+
+
+.imgd {
+    height:35px;
+    width: 35px;
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    margin-left: 20px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 100%;
+      object-fit: cover;
+      border: none;
+    }
+  }
+  .imgd::after {
+    content: "";
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background-color: #43d659;
+    position: absolute;
+    z-index: 12;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    
+  }
+  .active{
+    color: grey;
+    font-size: 10px;
+  }
+.dw{
+    color: white;
+    font-size: 13px;
+}
+}
+.bt{
+    background-color: black;
+}
+.fo{
+    padding: 5px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    z-index: 12;
+  
+}
+
+.elm{
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    background-color: black;
+   .add{
+    height: 80%;
+    width: 23px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    color: rgb(240, 9, 9);
+    background-color: black;
+   }
+   .camera{
+    height: 80%;
+    width: 23px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    color: rgb(240, 9, 9);
+    background-color: black;
+   }
+   .images{
+    height: 80%;
+    width: 23px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    color: rgb(240, 9, 9);
+    background-color: black;
+   }
+   .mic{
+   
+    width: 23px;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px ;
+    color: rgb(240, 9, 9);
+    background-color: black;
+   }
+}
+.inp{
+height: 100%;
+width: 230px;
+input{
+    height: 28px;
+    width: 180px;
+    margin-top: 5px;
+    border-radius: 15px;
+    background-color: #303030;
+    padding-left: 10px;
+    color: white;
+    text-overflow: hidden;
+}
+.em{
+    height: 20px;
+    background-color: transparent;
+    color: red;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+   margin-right: 50px;
+   margin-bottom: 16px;
+}
+}
+.emoji{
+    background-color: black;
+    .like{
+        color: red;
+        font-size: 25px;
+        background-color: black;
+
+    }
+}
+
+}
